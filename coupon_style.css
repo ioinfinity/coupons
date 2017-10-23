@@ -200,7 +200,7 @@ body{
 }
 
 .taobao-style .coupon .main-container div.top{
-	margin-bottom: 70px;
+	margin-bottom: 65px;
 }
 
 .taobao-style .coupon .main-container div.top span{
@@ -210,7 +210,7 @@ body{
 .taobao-style .coupon .main-container div.top span.sign{
 	top: 18px;
 	left: 6px;
-	font-size: 24px;
+	font-size: 10px;
 }
 
 .taobao-style .coupon .main-container div.top span.number{
