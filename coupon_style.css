@@ -1,5 +1,3 @@
-
-
 /* basic style */
 .basic-style .coupon {
 	position: relative;
@@ -7,23 +5,24 @@
 	height: 140px;
 	overflow: hidden;
 	background-color: #F39B00;
-	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(255, 0, 0, 0) 5px, #F39B00 5px);
+	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(255, 0, 0, 0) 5px,
+		#F39B00 5px);
 	background-size: 15px 15px;
 	background-position: 9px 3px;
 }
 
-.basic-style .coupon:before{
+.basic-style .coupon:before {
 	content: '';
 	position: absolute;
-	top:0;
-	bottom:0;
-	left:10px;
-	right:10px;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
 	z-index: -1;
-	background-color:#F39B00;
+	background-color: #F39B00;
 }
 
-.basic-style .coupon i{
+.basic-style .coupon i {
 	position: absolute;
 	left: 20%;
 	top: 45px;
@@ -41,13 +40,11 @@
 	padding: 15px;
 }
 
-
 .basic-style .coupon .vice-coupon {
 	width: 100px;
 	padding: 15px;
 	display: inline-block;
 }
-
 
 .basic-style .coupon .vice-coupon {
 	text-align: center;
@@ -63,36 +60,36 @@
 	text-align: center;
 }
 
-.basic-style .coupon .vice-coupon .title{
+.basic-style .coupon .vice-coupon .title {
 	font-size: 23px;
 }
 
-.basic-style .coupon .vice-coupon .start-date{
+.basic-style .coupon .vice-coupon .start-date {
 	margin-top: 45px;
 }
 
 /* taobao style */
-.taobao-style .coupon{
+.taobao-style .coupon {
 	width: 241px;
-	height: 300px;
+	height: 850px;
 	padding: 0;
 	margin: 0;
 	color: rgb(255, 255, 255);
 	font-family: "Microsoft YaHei";
 	font-size: 13px;
-	
 }
 
-.taobao-style .coupon .main{
+.taobao-style .coupon .main {
 	position: relative;
 	width: 100%;
-	height: 200px;
-	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 4px, #F39B00 4px);
+	height: 580px;
+	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 4px,
+		#F39B00 4px);
 	background-size: 12px 12px;
-	background-position: 0px 6px;	
+	background-position: 0px 6px;
 }
 
-.taobao-style .coupon .main:before{
+.taobao-style .coupon .main:before {
 	content: '';
 	position: absolute;
 	top: 6px;
@@ -100,22 +97,22 @@
 	left: 0px;
 	right: 0px;
 	/* z-index: -1; */
-	background-color:#F39B00;
+	background-color: #F39B00;
 }
 
-.taobao-style .coupon .divider{
+.taobao-style .coupon .divider {
 	position: relative;
 	width: 100%;
-	height: 16px;	
+	height: 16px;
 }
 
-.taobao-style .coupon .divider .divider-top{
+.taobao-style .coupon .divider .divider-top {
 	height: 50%;
 	background-color: #F39B00;
 	border-bottom: 2px dashed white;
 }
 
-.taobao-style .coupon .divider .divider-top:after{
+.taobao-style .coupon .divider .divider-top:after {
 	content: '';
 	position: absolute;
 	top: 0px;
@@ -124,10 +121,10 @@
 	right: 230px;
 	background: radial-gradient(white 0, white 5px, rgba(0, 0, 0, 0) 5px);
 	background-size: 16px 16px;
-	background-position: 8px 0px;	
+	background-position: 8px 0px;
 }
 
-.taobao-style .coupon .divider .divider-top:before{
+.taobao-style .coupon .divider .divider-top:before {
 	content: '';
 	position: absolute;
 	top: 0px;
@@ -136,15 +133,15 @@
 	right: 0px;
 	background: radial-gradient(white 0, white 5px, rgba(0, 0, 0, 0) 5px);
 	background-size: 16px 16px;
-	background-position: 2px 0px;	
+	background-position: 2px 0px;
 }
 
-.taobao-style .coupon .divider .divider-bottom{
+.taobao-style .coupon .divider .divider-bottom {
 	height: 50%;
 	background-color: #9F9F9F;
 }
 
-.taobao-style .coupon .divider .divider-bottom:after{
+.taobao-style .coupon .divider .divider-bottom:after {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -153,10 +150,10 @@
 	right: 230px;
 	background: radial-gradient(white 0, white 5px, rgba(0, 0, 0, 0) 5px);
 	background-size: 16px 16px;
-	background-position: 8px 8px;	
+	background-position: 8px 8px;
 }
 
-.taobao-style .coupon .divider .divider-bottom:before{
+.taobao-style .coupon .divider .divider-bottom:before {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -165,21 +162,82 @@
 	right: 0px;
 	background: radial-gradient(white 0, white 5px, rgba(0, 0, 0, 0) 5px);
 	background-size: 16px 16px;
-	background-position: 2px 8px;	
+	background-position: 2px 8px;
 }
 
-.taobao-style .coupon .vice{
+.taobao-style .coupon .vice {
 	position: relative;
 	width: 100%;
-	height: 100px;
+	height: 270px;
+	background: #9F9F9F;
+	background-size: 12px 12px;
+	background-position: 0px 10px;
+	overflow-y: auto;
+}
+
+.coupon-item-title {
+	font-weight: bold;
+}
+
+.coupon-hr {
+	border-top: 1px solid; 
+	width: 40%;
+
+}
+
+.vice {
+	position: relative;
+	width: 100%;
+	height: 140px;
 	background: #9F9F9F;
 	background-size: 12px 12px;
 	background-position: 0px 10px;
 }
 
+.vice::-webkit-scrollbar {
+	width: 6px;
+}
+
+.vice::-webkit-scrollbar-track {
+	-webkit-border-radius: 2px;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.vice::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.vice::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.vice::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.expiration-condition-table {
+	border-radius: 3px;
+	width: 500px;
+	border-color: white;
+}
 
 
-.taobao-style .coupon .vice:after{
+.expiration-table-title {
+	width: 50%;
+	font-weight: bold;
+}
+
+.expiration-table-date {
+	font-size: 16px;
+	border-width: 2px;
+	border-radius: 5px;
+	border-style: dotted;
+}
+
+.taobao-style .coupon .vice:after {
 	content: '';
 	position: relative;
 	top: 0px;
@@ -191,41 +249,40 @@
 }
 
 /* ---- */
-.taobao-style .coupon .main-container{
+.taobao-style .coupon .main-container {
 	position: relative;
-	padding : 9px;
+	padding: 9px;
 }
 
-.taobao-style .coupon .main-container div.top{
+.taobao-style .coupon .main-container div.top {
 	margin-bottom: 65px;
 }
 
-.taobao-style .coupon .main-container div.top span{
-	position: absolute;	
+.taobao-style .coupon .main-container div.top span {
+	position: absolute;
 }
 
-.taobao-style .coupon .main-container div.top span.sign{
+.taobao-style .coupon .main-container div.top span.sign {
 	top: 18px;
 	left: 6px;
-	font-size: 10px;
+	font-size: 14px;
 }
 
-.taobao-style .coupon .main-container div.top span.number{
+.taobao-style .coupon .main-container div.top span.number {
 	top: 5px;
-	left: 28px;
+	left: 37px;
 	font-size: 52px;
 }
 
-.taobao-style .coupon .main-container div.top span.range{
+.taobao-style .coupon .main-container div.top span.range {
 	top: 30px;
 	right: 15px;
 }
 
 .taobao-style .coupon .vice-container {
 	padding: 6px;
-	
 }
 
-.taobao-style .coupon .vice-container .title{
+.taobao-style .coupon .vice-container .title {
 	text-align: center;
 }
