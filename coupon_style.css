@@ -280,6 +280,10 @@
 	box-shadow: 0 0 20px #999;
 }
 
+.taobao-style .coupon .vice:hover {
+	box-shadow: 0 0 20px #999;
+}
+
 /* ---- */
 .taobao-style .coupon .main-container {
 	position: relative;
